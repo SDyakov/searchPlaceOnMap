@@ -12,6 +12,7 @@
 		84FE14281F7A8185001FFE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FE14261F7A8185001FFE23 /* Main.storyboard */; };
 		84FE142A1F7A8185001FFE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FE14291F7A8185001FFE23 /* Assets.xcassets */; };
 		84FE142D1F7A8185001FFE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FE142B1F7A8185001FFE23 /* LaunchScreen.storyboard */; };
+		84FE14361F7A81AF001FFE23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE14351F7A81AF001FFE23 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		84FE14291F7A8185001FFE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84FE142C1F7A8185001FFE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84FE142E1F7A8185001FFE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FE14351F7A81AF001FFE23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84FE14361F7A81AF001FFE23 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				84FE14211F7A8185001FFE23 /* showPlaceOnMap */,
 				84FE14201F7A8185001FFE23 /* Products */,
+				84FE14341F7A81AF001FFE23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				84FE142E1F7A8185001FFE23 /* Info.plist */,
 			);
 			path = showPlaceOnMap;
+			sourceTree = "<group>";
+		};
+		84FE14341F7A81AF001FFE23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84FE14351F7A81AF001FFE23 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
